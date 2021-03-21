@@ -5,6 +5,7 @@
 import cv2
 
 # Load the cascade
+# /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/cv2/data/haarcascade_frontalface_alt.xml
 face_cascade = cv2.CascadeClassifier('face_detector.xml')
 
 # Read the input image
